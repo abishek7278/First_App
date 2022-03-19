@@ -1,0 +1,15 @@
+@import '../../assets/external-assessment.css';
+/* Host Selector,Host class Selector and Host Context Selector  */
+:host {
+    display: block;
+    border: 3px solid red;
+}
+
+:host(.active)
+{
+    border: 1px solid green;
+}
+
+:host-context(.theme-light) h2{
+    background-color: blue;
+}
